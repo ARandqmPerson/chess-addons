@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Bughouse+",
+    "version": "1.0.0",
+    "description": "An extension that modifies the bughouse UI on chess.com",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "matches": [
+                "https://chess.com/play/*"
+            ]
+        }
+    ]
+}
