@@ -12,8 +12,9 @@
                 "styles.css"
             ],
             "matches": [
-                "https://chess.com/play/*"
+                "https://chess.com/game/*"
             ]
         }
-    ]
+    ],
+    "host_permissions": ["https://www.chess.com/*"]
 }
